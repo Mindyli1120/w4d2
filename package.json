@@ -1,0 +1,24 @@
+{
+  "name": "w4d2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lookup_people.js",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindyli1120/w4d2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mindyli1120/w4d2/issues"
+  },
+  "homepage": "https://github.com/Mindyli1120/w4d2#readme"
+}
