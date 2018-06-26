@@ -15,8 +15,7 @@ const knex = require('knex')({
     }
 });
 
-knex.select('first_name', 'last_name', 'birthdate').from('famous_people')
-.insert({first_name: firstName, last_name: lastName, birthdate: birthDate}).into('famous_people')
+knex.insert({first_name: firstName, last_name: lastName, birthdate: birthDate}).into('famous_people')
 .catch(function(error) {
     console.error(error)
 })
